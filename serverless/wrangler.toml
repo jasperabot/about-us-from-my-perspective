@@ -1,0 +1,10 @@
+name = "relationship-reflections-submissions"
+main = "cloudflare-worker.js"
+compatibility_date = "2026-04-16"
+workers_dev = true
+
+[vars]
+GITHUB_OWNER = "YOUR_GITHUB_OWNER"
+GITHUB_REPO = "YOUR_GITHUB_REPO"
+GITHUB_BRANCH = "main"
+ALLOWED_ORIGIN = "https://YOUR_GITHUB_USERNAME.github.io"
